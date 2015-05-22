@@ -1,0 +1,2 @@
+# Amazon
+regaldisclaimer.com/Amazon
