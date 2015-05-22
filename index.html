@@ -23,13 +23,4 @@
 		<script src="http://z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</body>
-	<script>
-		$(document).on('ready', function() {
-			var amznEl = $('#amznScript');
-			if(amznEl.css("display") == "none") {
-				console.log('Adblock :(');
-				$("body").append($("<h1>Content Blocked Due to Adblock. Disable Advertisement Blocking software to see all contents</h1>"));
-			}
-		})
-	</script>
 </html>
